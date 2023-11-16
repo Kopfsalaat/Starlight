@@ -56,5 +56,12 @@ public class ActivaPuzle : MonoBehaviour
         if(fadeAnimator != null) fadeAnimator.SetTrigger("StartTransition");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(escena);
+        StartCoroutine(DisableFade());
+    }
+
+    public IEnumerator DisableFade()
+    {
+        yield return new WaitForSeconds(1f);
+        Fade.SetActive(false);
     }
 }

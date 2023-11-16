@@ -34,7 +34,7 @@ public class CambioEscena : MonoBehaviour
 
     public IEnumerator SceneLoad()
     {
-        transitionAnimator.SetTrigger("StartTransition");
+        transitionAnimator.SetTrigger("Empezar");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(escena);
         StartCoroutine(DisableFade());

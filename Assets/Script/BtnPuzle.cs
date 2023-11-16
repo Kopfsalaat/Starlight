@@ -36,17 +36,18 @@ public class BtnPuzle : MonoBehaviour
 
     public void Responder()
     {
-        Debug.Log("vamoa revisar");
         string Revisado = Solucion.Revisado(PuzleActual);
-        BtnPista.SetActive(false);
-        BtnResponder.SetActive(false);
         if (Revisado == "Correcto")
         {
+            BtnPista.SetActive(false);
+            BtnResponder.SetActive(false);
             PanelCorrecta.SetActive(true);
             PanelIncorrecta.SetActive(false);
         }
         else if (Revisado == "Incorrecto")
         {
+            BtnPista.SetActive(false);
+            BtnResponder.SetActive(false);
             PanelCorrecta.SetActive(false);
             PanelIncorrecta.SetActive(true);
         }
@@ -61,7 +62,7 @@ public class BtnPuzle : MonoBehaviour
         BtnResponder.SetActive(true);
         PanelCorrecta.SetActive(false);
         PanelIncorrecta.SetActive(false);
-        Solucion.Reinicio();
+        Solucion.Reinicio(PuzleActual);
     }
 
     public void Continuar()
@@ -72,7 +73,6 @@ public class BtnPuzle : MonoBehaviour
 
     public IEnumerator SceneLoad()
     {
-        FadeFin.SetActive(true);
         transitionAnimator.SetTrigger("Empezar");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(escena);
