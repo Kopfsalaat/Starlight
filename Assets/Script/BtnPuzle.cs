@@ -8,7 +8,7 @@ public class BtnPuzle : MonoBehaviour
     public GameObject BtnPista;
     public GameObject BtnResponder;
     public GameObject BtnReiniciar;
-    public GameObject PanelPista;
+    public GameObject Pistas;
     public GameObject PanelCorrecta;
     public GameObject PanelIncorrecta;
     public GameObject FadeFin;
@@ -26,12 +26,12 @@ public class BtnPuzle : MonoBehaviour
 
     public void Pista()
     {
-        PanelPista.SetActive(true);
+        Pistas.SetActive(true);
     }
     
     public void Volver()
     {
-        PanelPista.SetActive(false);
+        Pistas.SetActive(false);
     }
 
     public void Responder()

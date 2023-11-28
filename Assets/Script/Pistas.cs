@@ -10,6 +10,8 @@ public class Pistas : MonoBehaviour
     public Button P1;
     public Button P2;
     public Button P3;
+    public Button Salir;
+    public Button Volver;
     public Button pActiva;
     public TMP_Text TPistaActiva;
     public GameObject TPista1;
@@ -23,7 +25,9 @@ public class Pistas : MonoBehaviour
         P1.gameObject.SetActive(false);
         P2.gameObject.SetActive(false);
         P3.gameObject.SetActive(false);
+        Salir.gameObject.SetActive(false);
         pActiva.gameObject.SetActive(true);
+        Volver.gameObject.SetActive(true);
         TPistaActiva.text = botonPista;
         switch(botonPista)
         {
@@ -51,6 +55,8 @@ public class Pistas : MonoBehaviour
         P1.gameObject.SetActive(true);
         P2.gameObject.SetActive(true);
         P3.gameObject.SetActive(true);
+        Salir.gameObject.SetActive(true);
+        Volver.gameObject.SetActive(false);
         pActiva.gameObject.SetActive(false);
         TPista1.gameObject.SetActive(false);
         TPista2.gameObject.SetActive(false);

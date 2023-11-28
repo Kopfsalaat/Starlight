@@ -142,10 +142,38 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1684049149336478778, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 481621702}
+    - target: {fileID: 1684049149336478778, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DesactivarPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684049149336478778, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Pistas, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 1795589794516150903, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2605905972268141876, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Salir
+      value: 
+      objectReference: {fileID: 861898497}
+    - target: {fileID: 2605905972268141876, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Volver
+      value: 
+      objectReference: {fileID: 470943492}
+    - target: {fileID: 2617644159875168020, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Salir
+      value: 
+      objectReference: {fileID: 861898497}
+    - target: {fileID: 2617644159875168020, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Volver
+      value: 
+      objectReference: {fileID: 470943492}
     - target: {fileID: 3865679811546942990, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -238,6 +266,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Volver
       objectReference: {fileID: 0}
+    - target: {fileID: 6782496316171550455, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Salir
+      value: 
+      objectReference: {fileID: 861898497}
+    - target: {fileID: 6782496316171550455, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Volver
+      value: 
+      objectReference: {fileID: 470943492}
     - target: {fileID: 7196204766118582121, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_text
       value: 'Trabajo = {Boots, Linx, Serpens}
@@ -274,6 +310,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8874774470061826218, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Salir
+      value: 
+      objectReference: {fileID: 861898497}
+    - target: {fileID: 8874774470061826218, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: Volver
+      value: 
+      objectReference: {fileID: 470943492}
     - target: {fileID: 8959240686115927783, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_Name
       value: Pistas
@@ -1221,6 +1265,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3593251338601111143, guid: f2e71d348e4e0aa4ebcfba5e6a29f5cf, type: 3}
   m_PrefabInstance: {fileID: 2094561206347710846}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &470943492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1684049149336478778, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+  m_PrefabInstance: {fileID: 2009115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &481621702 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2605905972268141876, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+  m_PrefabInstance: {fileID: 2009115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d640f6158d6a3e46ae1a18d63e24a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &511113022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,7 +1731,7 @@ MonoBehaviour:
   BtnPista: {fileID: 272225095}
   BtnResponder: {fileID: 1540414489}
   BtnReiniciar: {fileID: 2072790774}
-  PanelPista: {fileID: 2032036802}
+  Pistas: {fileID: 2032036802}
   PanelCorrecta: {fileID: 1010484509}
   PanelIncorrecta: {fileID: 253691803}
   FadeFin: {fileID: 770137639}
@@ -1841,6 +1907,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2194078595854076785, guid: f2e71d348e4e0aa4ebcfba5e6a29f5cf, type: 3}
   m_PrefabInstance: {fileID: 265770221}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &861898497 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6525258082507756749, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+  m_PrefabInstance: {fileID: 2009115}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &870314347 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2194078595854076785, guid: f2e71d348e4e0aa4ebcfba5e6a29f5cf, type: 3}
