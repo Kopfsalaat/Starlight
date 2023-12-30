@@ -303,7 +303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7857036448095556121, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_text
-      value: "Fijate bien en los conjuntos, puede que alg\xFAn personaje pertenezca
+      value: "F\xEDjate bien en los conjuntos, puede que alg\xFAn personaje pertenezca
         a m\xE1s de uno."
       objectReference: {fileID: 0}
     - target: {fileID: 8752961487722685707, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
@@ -2632,14 +2632,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 776974251374673107, guid: e7f3f4d34f31fa14d871b0a5cbd7e719, type: 3}
       propertyPath: m_text
-      value: "A Pollux se le ocurrio un puzle para distraerse un poco y ayudar en
-        el caso, completa el diagrama para averiguar m\xE1s acerca de los involucrados.
-        \n\n\n-Linx no es de la familia, pero si trabaja para ellos\n\n-Pollux es
-        amiga de la familia y prometida de Lupus\n\n-Lupus es hijo de Coppelius Starlight\n\n-Phoenix
-        es hermano de Coppelius Starlight\n\n-Serpens no es ni amigo ni familiar
-        de los Starlight\n\n-Polaris era mejor amiga de Coppelia Starlight\n\n-Boots
-        no es familia, pero si un buen amigo de la familia quien tambien trabaja
-        para ellos.\n"
+      value: "A Pollux se le ocurri\xF3 un puzle para distraerse un poco y ayudar
+        en el caso, completa el diagrama para averiguar m\xE1s acerca de los involucrados.
+        \r\n\r\n\r\n-Linx no es de la familia, pero si trabaja para ellos\r\n\r\n-Pollux
+        es amiga de la familia y prometida de Lupus\r\n\r\n-Lupus es hijo de Coppelius
+        Starlight\r\n\r\n-Phoenix es hermano de Coppelius Starlight\r\n\r\n-Serpens
+        no es ni amigo ni familiar de los Starlight\r\n\r\n-Polaris era mejor amiga
+        de Coppelia Starlight\r\n\r\n-Boots no es familia, pero s\xED un buen amigo
+        de la familia quien tambi\xE9n trabaja para ellos.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 776974251374673107, guid: e7f3f4d34f31fa14d871b0a5cbd7e719, type: 3}
       propertyPath: m_fontSize
@@ -4353,27 +4353,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1807914715848713954, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: m_text
-      value: 'Linx es trabajadora de los Starlight como sirvienta, mientras que Serpens
-        es elsecretario personal de Coppelius.
-
-
-        Pollux es hija de unos buenos
-        amigos de la familia Starlight, ademas de estar comprometida con el hijo
-        de los Starlight, Lupus.
-
-
-        Phoenix es el hermano de Coppelius, estuvo
-        enamorado de Coppelia pero ella solo tenia ojos para Coppelius.
-
-
-        Polaris
+      value: "Linx es trabajadora de los Starlight como sirvienta, mientras que Serpens
+        es el secretario personal de Coppelius.\r\n\r\nPollux es hija de unos buenos
+        amigos de la familia Starlight, adem\xE1s de estar comprometida con el hijo
+        de los Starlight, Lupus.\r\n\r\nPhoenix es el hermano de Coppelius, estuvo
+        enamorado de Coppelia pero ella solo ten\xEDa ojos para Coppelius.\r\n\r\nPolaris
         era la mejor amiga de Coppelia Starlight, pero dicen los rumores que solo
-        la utilizaba para estar cerca de Coppelius
-
-
-        Boots, buen amigo de
-        Coppelius en su juventud, actualmente trabaja como mayordomo en jefe de la
-        familia'
+        la utilizaba para estar cerca de Coppelius\r\n\r\nBoots, buen amigo de Coppelius
+        en su juventud, actualmente trabaja como mayordomo en jefe de la familia\r\n"
       objectReference: {fileID: 0}
     - target: {fileID: 1938452876414986612, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4386,6 +4373,10 @@ PrefabInstance:
     - target: {fileID: 2225994967419170671, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: m_Name
       value: Respuesta
+      objectReference: {fileID: 0}
+    - target: {fileID: 2225994967419170671, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2362061859287081143, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: m_Pivot.x
@@ -4494,6 +4485,15 @@ PrefabInstance:
     - target: {fileID: 5354900927533732780, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: m_Name
       value: Image
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682598917514795342, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
+      propertyPath: m_text
+      value: "Creo que debes seguir pensando en la soluci\xF3n de este puzle.\r\n\r\nNo
+        te desanimes, a\xFAn puedes volver a intentarlo.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055315604775375194, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
+      propertyPath: m_text
+      value: Puzle 02
       objectReference: {fileID: 0}
     - target: {fileID: 9179809715543177043, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: m_text

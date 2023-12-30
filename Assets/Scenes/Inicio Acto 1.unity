@@ -1586,8 +1586,9 @@ MonoBehaviour:
     Dialogues: "Hola Ori\xF3n, veo que vienes llegando."
   - Name: "Ori\xF3n"
     Avatar: {fileID: 21300000, guid: 1dfbdd4987ff86f4e96fc0b84400ca2d, type: 3}
-    Dialogues: "Asi es. En cuanto me informaron del caso trate de llegar lo antes
-      posible. La familia Starlight es muy querida \xBFQuien haria algo como esto?"
+    Dialogues: "As\xED es. En cuanto me informaron del caso trate de llegar lo antes
+      posible. La familia Starlight es muy querida \xBFQui\xE9n har\xEDa algo como
+      esto?"
   - Name: Aqua
     Avatar: {fileID: 21300000, guid: ff569319504f44846ab7ed0dd5b812cd, type: 3}
     Dialogues: Espero que podamos descubrirlo en poco tiempo. Por el momento tenemos
@@ -1797,16 +1798,16 @@ MonoBehaviour:
     Dialogues: "Buenas noches Pollux \xBFComo estas?"
   - Name: Pollux
     Avatar: {fileID: 21300000, guid: 911e08a2874ffd44a8cf43c0b03b9951, type: 3}
-    Dialogues: "Buenas noches Se\xF1or Ori\xF3n, no muy bien. Mi madre era una persona
-      tan buena. \xBFQuien pudo haber hecho algo asi?"
+    Dialogues: "Buenas noches Se\xF1or Ori\xF3n, no muy bien. Mi futura suegra era
+      una persona tan buena. \xBFQui\xE9n pudo haber hecho algo as\xED?"
   - Name: "Ori\xF3n"
     Avatar: {fileID: 21300000, guid: 1dfbdd4987ff86f4e96fc0b84400ca2d, type: 3}
-    Dialogues: Averiguar al culpable es mi deber. Tranquila, el caso esta en buenas
-      manos.
+    Dialogues: "Averiguar al culpable es mi deber. Tranquila, el caso est\xE1 en
+      buenas manos."
   - Name: Pollux
     Avatar: {fileID: 21300000, guid: 911e08a2874ffd44a8cf43c0b03b9951, type: 3}
     Dialogues: "Gracias, me siento m\xE1s tranquila sabiendo que usted y la Se\xF1orita
-      Aqua estan en el caso."
+      Aqua est\xE1n en el caso."
   - Name: "Ori\xF3n"
     Avatar: {fileID: 21300000, guid: 1dfbdd4987ff86f4e96fc0b84400ca2d, type: 3}
     Dialogues: Vengo a hablar contigo para preguntarte un poco acerca de los miembros
@@ -1814,8 +1815,8 @@ MonoBehaviour:
   - Name: Pollux
     Avatar: {fileID: 21300000, guid: 911e08a2874ffd44a8cf43c0b03b9951, type: 3}
     Dialogues: "Claro que puedo ayudar en lo que necesite Se\xF1or Ori\xF3n. De hecho,
-      se me ocurrio un puzle para entregarle la informaci\xF3n. Me contaron por ah\xED
-      que le gustan los puzles."
+      se me ocurri\xF3 un puzle para entregarle la informaci\xF3n. Me contaron por
+      ah\xED que le gustan los puzles."
   - Name: "Ori\xF3n"
     Avatar: {fileID: 21300000, guid: 1dfbdd4987ff86f4e96fc0b84400ca2d, type: 3}
     Dialogues: Veamos ese puzle entonces.

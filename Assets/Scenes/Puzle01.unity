@@ -812,7 +812,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0bb9abe00205b6c4ea92c0643360ebb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54c1bcc0d42bcca40812b77d6e25bcab, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1080,7 +1080,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -913, y: -269.1448}
+  m_AnchoredPosition: {x: -821, y: -269.1448}
   m_SizeDelta: {x: 495.972, y: 814.058}
   m_Pivot: {x: 0.4999995, y: 0.5}
 --- !u!114 &1059420230
@@ -1103,7 +1103,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2fe1909b4a133844bb71f37389a02d40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 186d31332c2c1eb42aefcdc5c169a626, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1369,7 +1369,6 @@ MonoBehaviour:
   BtnResponder: {fileID: 1200316576}
   BtnReiniciar: {fileID: 1311725768}
   Pistas: {fileID: 938182042}
-  PanelPista: {fileID: 1870589582}
   PanelCorrecta: {fileID: 131634028}
   PanelIncorrecta: {fileID: 629503807}
   FadeFin: {fileID: 2065450923}
@@ -1726,7 +1725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a8cf948df3b39f745acbcc58227a8552, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51b3fc1fd2fb4ea48a520098c2d9c52a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2006,11 +2005,6 @@ MonoBehaviour:
   MarcaB: {fileID: 1027473060}
   MarcaC: {fileID: 465808365}
   opcion: 
---- !u!1 &1870589582 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8752961487722685707, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
-  m_PrefabInstance: {fileID: 2617644159875168018}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1878033403 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4123070328592617504, guid: e9b763b81ea7d914e99935e44f7adf1b, type: 3}
@@ -2359,6 +2353,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1394348528}
     m_Modifications:
+    - target: {fileID: 263325433484738011, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: m_text
+      value: "Cualquiera puede ser culpable, no importa si est\xE1 mintiendo o diciendo
+        la verdad."
+      objectReference: {fileID: 0}
     - target: {fileID: 282575804358845582, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2514,6 +2513,15 @@ PrefabInstance:
     - target: {fileID: 6855127295102395135, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_Name
       value: Volver
+      objectReference: {fileID: 0}
+    - target: {fileID: 7196204766118582121, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: m_text
+      value: "El sospechoso B esta mintiendoEl sospechoso B est\xE1 mintiendo"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857036448095556121, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
+      propertyPath: m_text
+      value: "Prueba descartando opciones, puedes ayudarte de una tabla de verdad
+        con el siguiente enunciado\n\n(A ^ \xACB) ^ \xACC"
       objectReference: {fileID: 0}
     - target: {fileID: 8752961487722685707, guid: 4b7223585573331448f8d17ba15aed13, type: 3}
       propertyPath: m_IsActive
@@ -2765,6 +2773,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1394348524}
+    - target: {fileID: 1807914715848713954, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
+      propertyPath: m_text
+      value: "Teniendo en cuenta que solo uno dice la verdad se puede considerar
+        descartar opciones.\r\n\r\nSi B dice la verdad entonces C estar\xEDa mintiendo
+        y ser\xEDa el culpable, pero entonces A tambi\xE9n estar\xEDa mintiendo y
+        ser\xEDa culpable.\r\n\r\nSi C dice la verdad, B estar\xEDa mintiendo por
+        lo que C no ser\xEDa el culpable. Adem\xE1s, A tambi\xE9n estar\xEDa mintiendo
+        lo que significa que:\r\n\r\n\xA1A es culpable!\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 1938452876414986612, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2857,6 +2874,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3283159255957482588, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3459620782747841405, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
       propertyPath: A
       value: 
@@ -2869,6 +2890,15 @@ PrefabInstance:
       propertyPath: C
       value: 
       objectReference: {fileID: 856466040}
+    - target: {fileID: 4049078183931671310, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682598917514795342, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
+      propertyPath: m_text
+      value: "Creo que debes seguir pensando en la soluci\xF3n de este puzle.\r\n\r\nNo
+        te desanimes, a\xFAn puedes volver a intentarlo.\r"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f683dd36f092c7d4a9fce484477aaefd, type: 3}
 --- !u!224 &5340138893579319427 stripped
@@ -2966,6 +2996,14 @@ PrefabInstance:
     - target: {fileID: 221101862887029599, guid: e7f3f4d34f31fa14d871b0a5cbd7e719, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 776974251374673107, guid: e7f3f4d34f31fa14d871b0a5cbd7e719, type: 3}
+      propertyPath: m_text
+      value: "Ha ocurrido un robo en el banco de la ciudad. La polic\xEDa pudo atrapar
+        a tres sospechosos de los cuales solo 1 es culpable:\r\n\r\n\t[A]: Yo no
+        lo hice\r\n\t[B]: C es culpable\r\n\t[C]: B est\xE1 mintiendo\r\n\r\nSe sabe
+        que 2 sospechosos mienten y 1 dice la verdad \xBFSabes quien es el verdadero
+        culpable?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5779920125523693671, guid: e7f3f4d34f31fa14d871b0a5cbd7e719, type: 3}
       propertyPath: m_Name
